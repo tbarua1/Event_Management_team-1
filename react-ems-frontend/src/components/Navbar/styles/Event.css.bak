@@ -1,0 +1,6 @@
+.eventsimg th{padding-left:100px
+}
+.events{text-align:center;font-size:50px;margin-top:0px}
+.body{background-image:url('background.jpg');
+background-repeat:no-repeat;
+background-size:1370px 800px}

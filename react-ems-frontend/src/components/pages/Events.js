@@ -6,16 +6,19 @@ import logo2 from './a8.jpeg';
 import logo3 from './b1.jpeg';
 import logo4 from './a4.jpeg';
 import logo5 from './a6.jpeg';
+import  './Event.css';
 
 export default function Events() {
  return(
-<div classname="ui events menu">
-<h1>EVENTS</h1> 
-  <table>
+<div className="body">
+<div className="events">
+<h1 >EVENTS</h1> </div>
+<div>
+  <table className="eventsimg">
 	<tr>
-	<th><a href=""><img src={logo} height="200" width="300"></img></a></th>
-	<th><a href=""><img src={logo1} height="200" width="300"></img></a></th>
-	<th><a href=""><img src={logo2} height="200" width="300"></img></a></th>
+	<th><a href=""><img src={logo} height="200" width="330"></img></a></th>
+	<th><a href=""><img src={logo1} height="200" width="330"></img></a></th>
+	<th><a href=""><img src={logo2} height="200" width="330"></img></a></th>
   </tr>
   <tr>
   <th><h2>Wedding</h2></th>
@@ -23,9 +26,9 @@ export default function Events() {
 	<th><h2>Anniversary</h2></th>
 	</tr>
   <tr>
-	<th><a href=""><img src={logo3} height="200" width="300"></img></a></th>
-	<th><a href=""><img src={logo4} height="200" width="300"></img></a></th>
-	<th><a href=""><img src={logo5} height="200" width="300"></img></a></th>
+	<th><a href=""><img src={logo3} height="200" width="330"></img></a></th>
+	<th><a href=""><img src={logo4} height="200" width="330"></img></a></th>
+	<th><a href=""><img src={logo5} height="200" width="330"></img></a></th>
   </tr>
   <tr>
   <th><h2>Baby Shower</h2></th>
@@ -35,5 +38,6 @@ export default function Events() {
   </table>
 
 </div>
+	</div>
 	);
 }

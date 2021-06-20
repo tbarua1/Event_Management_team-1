@@ -6,7 +6,7 @@ import logo2 from './a8.jpeg';
 import logo3 from './b1.jpeg';
 import logo4 from './a4.jpeg';
 import logo5 from './a6.jpeg';
-import  '../../Navbar/styles/Event.css';
+import  '../Navbar/styles/Event.css';
 
 export default function Events() {
  return(

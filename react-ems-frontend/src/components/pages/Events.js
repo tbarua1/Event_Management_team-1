@@ -16,9 +16,9 @@ export default function Events() {
 <div>
   <table className="eventsimg">
 	<tr>
-	<th><a href=""><img src={logo} height="200" width="330"></img></a></th>
-	<th><a href=""><img src={logo1} height="200" width="330"></img></a></th>
-	<th><a href=""><img src={logo2} height="200" width="330"></img></a></th>
+	<th><a href=""><img src={logo} height="200" width="380"></img></a></th>
+	<th><a href=""><img src={logo1} height="200" width="380"></img></a></th>
+	<th><a href=""><img src={logo2} height="200" width="380"></img></a></th>
   </tr>
   <tr>
   <th><h2>Wedding</h2></th>
@@ -26,9 +26,9 @@ export default function Events() {
 	<th><h2>Anniversary</h2></th>
 	</tr>
   <tr>
-	<th><a href=""><img src={logo3} height="200" width="330"></img></a></th>
-	<th><a href=""><img src={logo4} height="200" width="330"></img></a></th>
-	<th><a href=""><img src={logo5} height="200" width="330"></img></a></th>
+	<th><a href=""><img src={logo3} height="200" width="380"></img></a></th>
+	<th><a href=""><img src={logo4} height="200" width="380"></img></a></th>
+	<th><a href=""><img src={logo5} height="200" width="380"></img></a></th>
   </tr>
   <tr>
   <th><h2>Baby Shower</h2></th>

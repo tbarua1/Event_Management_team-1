@@ -1,11 +1,11 @@
 import React from 'react';
 import '../../App.css';
-import logo from './a2.jpeg';
-import logo1 from './a1.jpeg';
-import logo2 from './a8.jpeg';
-import logo3 from './b1.jpeg';
-import logo4 from './a4.jpeg';
-import logo5 from './a6.jpeg';
+import logo from '../images/a2.jpeg';
+import logo1 from '../images/a1.jpeg';
+import logo2 from '../images/a8.jpeg';
+import logo3 from '../images/b1.jpeg';
+import logo4 from '../images/a4.jpeg';
+import logo5 from '../images/a6.jpeg';
 import  '../Navbar/styles/Event.css';
 
 export default function Events() {

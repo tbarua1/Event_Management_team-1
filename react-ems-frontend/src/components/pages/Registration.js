@@ -1,18 +1,18 @@
 import React from 'react';
-import './style.css';
+import '../../style.css';
 
 const Registration = () => {
     return (
-        <div>
+        <div className='breg'>
 
 
 
           <center>
 
 
-            <h1>Event Regestration form</h1>
+            <h1 id='hreg'>Event Regestration form</h1>
             {/* <div class="weddingregestration"> */}
-                <form id="weddingregestration" method="post">
+                <form className='fhreg' id="weddingregestration" method="post">
 
                     <label>
                         First Name

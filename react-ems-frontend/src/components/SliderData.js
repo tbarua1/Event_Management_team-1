@@ -7,7 +7,7 @@ export const SliderData =[
     {
         title: 'Luxury Farm-house in Mumbai, India',
         price: '$428/hr',
-        path: '/contents',
+        path: '/reg',
         label: 'Book Now',
         image: Image1,
         alt: 'venue'
@@ -15,7 +15,7 @@ export const SliderData =[
     {
         title: 'Concert Halls in Bali, Indonesia',
         price: '$1000/hr',
-        path: '/contents',
+        path: '/reg',
         label: 'Book Now',
         image: Image2,
         alt: 'venue'
@@ -23,7 +23,7 @@ export const SliderData =[
     {
         title: 'Luxury Wedding Venue in Texas, USA',
         price: '$600/hr',
-        path: '/contents',
+        path: '/reg',
         label: 'Book Now',
         image: Image3,
         alt: 'venue'
@@ -31,7 +31,7 @@ export const SliderData =[
     {
         title: 'Party house in Italy',
         price: '$428/hr',
-        path: '/contents',
+        path: '/reg',
         label: 'Book Now',
         image: Image4,
         alt: 'venue'

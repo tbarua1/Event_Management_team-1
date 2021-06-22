@@ -7,6 +7,7 @@ import logo3 from '../../images/b1.jpeg';
 import logo4 from '../../images/a4.jpeg';
 import logo5 from '../../images/a6.jpeg';
 import  '../Navbar/styles/Event.css';
+import { Link } from 'react-router-dom';
 
 export default function Events() {
  return(
@@ -16,9 +17,9 @@ export default function Events() {
 <div>
   <table className="eventsimg">
 	<tr>
-	<th><a href=""><img src={logo} ></img></a></th>
-	<th><a href=""><img src={logo1} ></img></a></th>
-	<th><a href=""><img src={logo2} ></img></a></th>
+	<th><Link to='/reg'><img src={logo} ></img></Link></th>
+	<th><Link to='/reg'><img src={logo1} ></img></Link></th>
+	<th><Link to='/reg'><img src={logo2} ></img></Link></th>
   </tr>
   <tr>
   <th><h2>Wedding</h2></th>
@@ -26,9 +27,9 @@ export default function Events() {
 	<th><h2>Anniversary</h2></th>
 	</tr>
   <tr>
-	<th><a href=""><img src={logo3} ></img></a></th>
-	<th><a href=""><img src={logo4} ></img></a></th>
-	<th><a href=""><img src={logo5} ></img></a></th>
+	<th><Link to='/reg'><img src={logo3} ></img></Link></th>
+	<th><Link to='/reg'><img src={logo4} ></img></Link></th>
+	<th><Link to='/reg'><img src={logo5} ></img></Link></th>
   </tr>
   <tr>
   <th><h2>Baby Shower</h2></th>

@@ -1,10 +1,18 @@
-import React from 'react';
-import '../../App.css';
+import React from 'react'
+import Content from '../Content'
+import { InfoData, InfoData2 } from '../InfoData'
+import InfoSection from '../InfoSection'
+import { SliderData } from '../SliderData'
 
-export default function Home() {
-  return (
-    <>
-      <h1 className='home'>EPIC</h1>
-    </>
-  );
+const Home = () => {
+    return (
+        <>
+            <Content slides = {SliderData} />
+            <InfoSection {...InfoData}/>
+            <InfoSection {...InfoData2}/>
+
+        </>
+    )
 }
+
+export default Home

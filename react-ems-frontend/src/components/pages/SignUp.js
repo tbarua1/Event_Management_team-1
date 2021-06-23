@@ -14,9 +14,9 @@ export default function SignUp() {
         <label htmlFor="email">Email </label>
         <input className="input" type="text" name="email" placeholder="Email" ></input>
         <label htmlFor="Password">Password </label>
-        <input className="input" type="text" name="username" placeholder="Password" ></input>
+        <input className="input" type="text" name="pass" placeholder="Password" ></input>
         <label htmlFor="Password">Password </label>
-        <input className="input" type="text" name="username" placeholder="Confirm Password" ></input>
+        <input className="input" type="text" name="pass2" placeholder="Confirm Password" ></input>
         <input type="submit" name="signup button" value="Submit"></input>
           </div>
         <div class="right-box">

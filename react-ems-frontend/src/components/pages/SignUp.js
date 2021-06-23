@@ -4,21 +4,20 @@ import '../../SignUpStyle.css'
 
 export default function SignUp() {
   return(
-    <React.Fragment>
-
-    <form action="">
+    <div className="rsign">
+     <form action="">
       <div id="login-box">
         <div class="left-box">
-          <h1> Register</h1>
+          <h1 class="heading"> Register</h1>
          <label htmlFor="username">Username </label>
-        <input type="text" name="username" placeholder="Name" ></input>
+        <input className="input" type="text" name="username" placeholder="Name" ></input>
         <label htmlFor="email">Email </label>
-        <input type="text" name="email" placeholder="Email" ></input>
+        <input className="input" type="text" name="email" placeholder="Email" ></input>
         <label htmlFor="Password">Password </label>
-        <input type="text" name="username" placeholder="Password" ></input>
+        <input className="input" type="text" name="username" placeholder="Password" ></input>
         <label htmlFor="Password">Password </label>
-        <input type="text" name="username" placeholder="Confirm Password" ></input>
-        <input type="submit" name="signup button" value="Submit"></input>
+        <input className="input" type="text" name="username" placeholder="Confirm Password" ></input>
+        <input className="input" type="submit" name="signup button" value="Submit"></input>
           </div>
         <div class="right-box">
         <span class="signinwith"></span>
@@ -31,7 +30,7 @@ export default function SignUp() {
   </div>
 </div>
 </form>
-</React.Fragment>
+</div>
     
     
 

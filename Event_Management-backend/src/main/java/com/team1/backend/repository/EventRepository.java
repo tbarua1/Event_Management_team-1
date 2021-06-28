@@ -1,13 +1,11 @@
-package repositories;
-
+package com.team1.backend.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import module.Event;
+import com.team1.backend.model.Event;
 
 @Repository
-public interface EventRepository extends JpaRepository<Event, Long>
-{
+public interface EventRepository extends JpaRepository<Event, Long>{
 
 }

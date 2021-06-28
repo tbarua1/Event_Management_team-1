@@ -7,14 +7,14 @@ const Registration = () => {
 
 
 
-          <center>
+            {/* <center>
 
 
             <h1 id='hreg'>Event Regestration form</h1>
-            {/* <div class="weddingregestration"> */}
+             <div class="weddingregestration"> 
                 <form className='fhreg' id="weddingregestration" method="post">
 
-                    <label>
+                    <label >
                         First Name
                     </label>
                     <input type="text" name="fname" id="name" placeholder="Enter your first name" /><br></br>
@@ -112,13 +112,80 @@ const Registration = () => {
 		   </form>
 		   
            </center>
-		       {/* </div> */}
-   
-	
+		       </div> */}
+
+            <div class="container">
+                <div class="title">Event Booking Form</div>
+                <div class="content">
+                    <form action="#">
+                        <div class="user-details">
+                            <div class="input-box">
+                                <span class="details">Full Name</span>
+                                <input type="text" placeholder="Enter your name" required />
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Type of Event</span>
+                                {/* <input type="text" placeholder="Enter Type of Event" required/> */}
+                                <select className='opt'>
+                                    <option value="" disabled selected>Select your option</option>
+                                    <option value="event">Wedding</option>
+                                    <option value="Birthday">Birthday</option>
+                                    <option value="Babyshower">Baby-shower</option>
+                                    <option value="anniversary">Anniversary</option>
+                                    <option value="Party">party</option>
+                                    <option value="others">others </option>
+
+                                </select>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Email</span>
+                                <input type="text" placeholder="Enter your email" required />
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Phone Number</span>
+                                <input type="text" placeholder="Enter your number" required />
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Number of Guest</span>
+                                <input type="text" placeholder="Enter number of guest" required />
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Date of Event</span>
+                                <input type="text" placeholder="Confirm Event date" required />
+                            </div>
+                        </div>
+                        <div class="gender-details">
+                            <input type="radio" name="gender" id="dot-1" />
+                            <input type="radio" name="gender" id="dot-2" />
+                            <input type="radio" name="gender" id="dot-3" />
+                            <span class="gender-title">Type of Food</span>
+                            <div class="category">
+                                <label for="dot-1">
+                                    <span class="dot one"></span>
+                                    <span class="gender">Veg</span>
+                                </label>
+                                <label for="dot-2">
+                                    <span class="dot two"></span>
+                                    <span class="gender">Non-Veg</span>
+                                </label>
+                                <label for="dot-3">
+                                    <span class="dot three"></span>
+                                    <span class="gender">Both</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="button">
+                            <input type="submit" value="Book" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
         </div>
-                );
+    );
 }
 
-                export default Registration;
-
+export default Registration;
 

@@ -2,7 +2,7 @@
   --primary: #1888ff;
 }
 
-.btn {
+.bttn {
   padding: 8px 20px;
   border-radius: 4px;
   outline: none;
@@ -11,9 +11,10 @@
   color: #000;
   cursor: pointer;
   background-color: var(--primary);
+  margin-bottom: 28px;
 }
 
-.btn:hover {
+.bttn:hover {
   padding: 6px 18px;
   transition: all 0.3s ease-out;
   background-color: transparent;

@@ -66,11 +66,11 @@ export default function SignUp() {
               setUser({ ...user, uEmail: e.target.value })
             }}></input>
             <label htmlFor="Password">Password </label>
-            <input className="input" type="text" name="pass" placeholder="Password" onChange={(e) => {
+            <input className="input" type="password" name="pass" placeholder="Password" onChange={(e) => {
               setUser({ ...user, uPass: e.target.value })
             }}></input>
             <label htmlFor="Password">Password </label>
-            <input className="input" type="text" name="pass2" placeholder="Confirm Password" ></input>
+            <input className="input" type="password" name="pass2" placeholder="Confirm Password" ></input>
             <input type="submit" name="signup button" value="Submit" onClick={btnHandle} ></input>
           </div>
           <div class="right-box">

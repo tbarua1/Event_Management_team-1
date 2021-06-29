@@ -30,7 +30,17 @@ export default function SignUp() {
     )
   };
 
-
+  const btnHandle = () => {
+    toast('🦄 Registered successfully!', {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    });
+  };
 
   return (
     <div className="rsign">
